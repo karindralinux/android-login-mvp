@@ -6,7 +6,9 @@ package org.ngodingo.login_mvp.login;
 
 public interface ILoginView {
 
-    void navigateToListActivity();
+    void navigateToMainActivity();
+    void network();
     void loginFailed();
+
 
 }
